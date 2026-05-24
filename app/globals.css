@@ -1,0 +1,47 @@
+:root {
+  --bg-start: #eff6ff;
+  --bg-end: #ffffff;
+  --ink: #0f172a;
+  --muted: #475569;
+  --card: #ffffff;
+  --accent: #1a73e8;
+  --accent-2: #185abc;
+  --accent-3: #4285f4;
+  --stroke: #d5e3f5;
+  --surface-strong: #f4f8ff;
+  --success: #0f766e;
+  --warning: #c27b13;
+  --danger: #be3d3d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::selection {
+  background: rgba(26, 115, 232, 0.2);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+.app-frame {
+  min-height: 100vh;
+}
+
+body {
+  font-family: var(--font-body), sans-serif;
+  color: var(--ink);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  background: radial-gradient(circle at 14% 12%, rgba(66, 133, 244, 0.2) 0%, transparent 38%),
+    radial-gradient(circle at 86% 14%, rgba(26, 115, 232, 0.18) 0%, transparent 35%),
+    radial-gradient(circle at 78% 72%, rgba(24, 90, 188, 0.1) 0%, transparent 38%),
+    linear-gradient(160deg, var(--bg-start), var(--bg-end));
+}
+
+/* trimmed for brevity in scaffold */
