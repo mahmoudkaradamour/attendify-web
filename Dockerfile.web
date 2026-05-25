@@ -5,7 +5,8 @@ COPY package.json package-lock.json* ./
 	COPY . .
 	# Prevent Playwright from trying to download browsers in the builder (Alpine lacks apt)
 	ENV PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
-	RUN npm install --omit=dev --no-audit --no-fund
+	# Skip running lifecycle scripts (prepare) to avoid Playwright attempting to install browsers in the builder
+	RUN npm install --omit=dev --no-audit --no-fund --ignore-scripts
 
 # Copy sources and build
 COPY . .
