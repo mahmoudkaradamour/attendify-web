@@ -3,6 +3,8 @@ WORKDIR /app
 
 COPY package.json package-lock.json* ./
 	COPY . .
+	# Prevent Playwright from trying to download browsers in the builder (Alpine lacks apt)
+	ENV PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
 	RUN npm install --omit=dev --no-audit --no-fund
 
 # Copy sources and build
