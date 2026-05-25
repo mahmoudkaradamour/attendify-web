@@ -11,7 +11,13 @@ export default defineConfig({
     headless: true,
     viewport: { width: 1280, height: 720 },
     actionTimeout: 10_000,
-    baseURL: process.env.BACKEND_BASE_URL || 'http://localhost:3000'
+    baseURL: 'http://127.0.0.1:3005'
+  },
+  webServer: {
+    command: 'npm run dev -- --hostname 127.0.0.1 --port 3005',
+    url: 'http://127.0.0.1:3005',
+    reuseExistingServer: !process.env.CI,
+    timeout: 120_000
   },
   projects: [
     { name: 'chromium', use: { ...devices['Desktop Chrome'] } }

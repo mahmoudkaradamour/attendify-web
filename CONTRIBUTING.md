@@ -10,8 +10,10 @@ Getting started
 
 Testing
 
-- Unit tests: (none configured yet)
-- End-to-end tests: `npm run test:e2e` (uses Playwright). Ensure `npx playwright install --with-deps` ran successfully.
+- Unit tests: none are configured yet.
+- Build check: `npm run build`.
+- End-to-end tests: `npm run test:e2e` (uses Playwright). Ensure `npx playwright install --with-deps` ran successfully on the machine or CI runner. The test run starts the frontend automatically.
+- CI mirrors this flow in the frontend repository workflow.
 
 Pull requests
 
