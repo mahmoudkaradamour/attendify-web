@@ -1,21 +1,29 @@
 # Contributing
 
-Thank you for contributing to Attendify Web. This document explains how to make changes, run tests, and submit PRs.
+Thank you for contributing to Attendify Web. This document explains the expected workflow for changes, verification, and pull requests.
 
-Getting started
+## Working locally
 
-1. Fork the repository and create a branch per feature or fix: `git checkout -b feat/my-change`.
+1. Create a branch for your change: `git checkout -b feat/my-change`.
 2. Install dependencies: `npm install`.
-3. Run the app locally: `npm run dev`.
+3. Start the app locally: `npm run dev`.
+4. Install Playwright browsers once if you plan to run E2E tests: `npx playwright install --with-deps`.
 
-Testing
+## Verification
 
-- Unit tests: none are configured yet.
 - Build check: `npm run build`.
-- End-to-end tests: `npm run test:e2e` (uses Playwright). Ensure `npx playwright install --with-deps` ran successfully on the machine or CI runner. The test run starts the frontend automatically.
-- CI mirrors this flow in the frontend repository workflow.
+- Browser coverage: `npm run test:e2e`.
+- There are currently no unit tests configured for this repo.
 
-Pull requests
+## Review expectations
 
-- Open a PR against `main` and request review from `@mahmoudkaradamour`.
-- PRs should include a clear description, screenshots for UI changes, and link to relevant issues.
+- Keep changes scoped to the frontend repository.
+- Include screenshots or screen recordings for visible UI changes.
+- Update README or docs when behavior, routes, or deployment expectations change.
+- Avoid introducing backend secrets or private tenant data into this repository.
+
+## Pull requests
+
+- Open a PR against `main`.
+- Include a concise description of the user-facing change and verification performed.
+- Link any related issues or backend changes if the UI depends on them.

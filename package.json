@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "echo \"No frontend tests configured yet\" && exit 0",
+    "test": "echo \"No unit tests configured yet; use npm run test:e2e for browser coverage\" && exit 0",
     "test:e2e": "playwright test",
     "prepare": "npx playwright install --with-deps"
   },

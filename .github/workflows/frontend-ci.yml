@@ -21,4 +21,4 @@ jobs:
         run: npm run build
       - name: Smoke test
         run: |
-          echo "No automated UI tests configured; consider adding Playwright/E2E tests"
+          echo "Build completed successfully; Playwright E2E runs in .github/workflows/playwright.yml"

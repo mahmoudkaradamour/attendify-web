@@ -24,7 +24,7 @@ jobs:
       - name: Start server
         run: npx serve .next -p 3000 & sleep 2
       - name: Run Playwright tests
-        run: npx playwright test --config=playwright.config.ts
+        run: npm run test:e2e
       - name: Upload Playwright report
         uses: actions/upload-artifact@v4
         with:
