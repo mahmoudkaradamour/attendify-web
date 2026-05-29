@@ -6,3 +6,12 @@ test('home page has title and nav', async ({ page }) => {
   const nav = page.locator('nav[aria-label="Primary navigation"]');
   await expect(nav).toBeVisible();
 });
+
+for (const route of ['/access', '/portal', '/subscriptions', '/docs']) {
+  test(`route ${route} renders a page`, async ({ page }) => {
+    await page.goto(route);
+    await expect(page.locator('nav[aria-label="Primary navigation"]')).toBeVisible();
+    await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+    await expect(page.locator('main')).toBeVisible();
+  });
+}

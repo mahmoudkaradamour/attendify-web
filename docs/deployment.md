@@ -4,7 +4,7 @@ Attendify Web is deployed independently from the backend control plane.
 
 ## Supported deployment targets
 
-- Vercel.
+- Cloudflare Pages with static export.
 - Any Next.js-compatible host that supports `next build` and `next start`.
 
 ## Build and release
@@ -22,5 +22,5 @@ npm run build
 
 ## Operational notes
 
-- Use `.github/workflows/deploy-vercel.yml` for Vercel deployments.
+- Use `.github/workflows/deploy-cloudflare-pages.yml` for Cloudflare Pages deployments.
 - Keep frontend release cadence independent from backend release cadence.

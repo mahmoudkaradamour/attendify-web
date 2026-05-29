@@ -60,7 +60,7 @@ npm run test:e2e
 
 ## Deployment
 
-The frontend is deployed independently from the backend. GitHub Actions includes a build workflow, a Playwright workflow, and a Vercel deployment workflow.
+The frontend is deployed independently from the backend. GitHub Actions includes a build workflow, a Playwright workflow, and a Cloudflare Pages deployment workflow.
 
 ## Relationship to Attendify Server
 
