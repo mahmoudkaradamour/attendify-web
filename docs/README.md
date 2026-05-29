@@ -5,8 +5,9 @@ This directory collects the essential documentation for the standalone Attendify
 ## Start here
 
 1. [deployment.md](deployment.md) for hosting and runtime expectations.
-2. [testing.md](testing.md) for local and CI verification.
-3. [../README.md](../README.md) for the repository overview.
+2. [cloudflare-pages.md](cloudflare-pages.md) for the exact Pages + domain setup.
+3. [testing.md](testing.md) for local and CI verification.
+4. [../README.md](../README.md) for the repository overview.
 
 ## Canonical topics
 

@@ -54,6 +54,7 @@ npm run test:e2e
 
 - Overview: [docs/README.md](docs/README.md)
 - Deployment notes: [docs/deployment.md](docs/deployment.md)
+- Cloudflare Pages guide: [docs/cloudflare-pages.md](docs/cloudflare-pages.md)
 - Testing notes: [docs/testing.md](docs/testing.md)
 - Security policy: [SECURITY.md](SECURITY.md)
 - Contribution guide: [CONTRIBUTING.md](CONTRIBUTING.md)
