@@ -7,7 +7,7 @@ test('home page has title and nav', async ({ page }) => {
   await expect(nav).toBeVisible();
 });
 
-for (const route of ['/access', '/portal', '/subscriptions', '/docs']) {
+for (const route of ['/access', '/admin', '/portal', '/subscriptions', '/docs']) {
   test(`route ${route} renders a page`, async ({ page }) => {
     await page.goto(route);
     await expect(page.locator('nav[aria-label="Primary navigation"]')).toBeVisible();

@@ -6,36 +6,36 @@ export default function DocsPage() {
       copy={{
         eyebrowEn: "Docs Portal",
         eyebrowAr: "بوابة الوثائق",
-        titleEn: "Documentation designed for engineers, security teams, and auditors",
-        titleAr: "وثائق مصممة للمهندسين وفرق الأمن والتدقيق",
+        titleEn: "Documentation for operators, engineers, auditors, and integration teams",
+        titleAr: "وثائق للمشغلين والمهندسين والمدققين وفرق التكامل",
         descriptionEn:
-          "Use this area as the entry point to product docs, release notes, and integration guidance for technical stakeholders.",
+          "Use this entry point for system diagrams, API contracts, runbooks, and operational controls that match the live backend.",
         descriptionAr:
-          "استخدم هذه الصفحة كنقطة دخول إلى وثائق المنتج وملاحظات الإصدارات وإرشادات التكامل للجهات التقنية.",
+          "استخدم هذه الصفحة كنقطة دخول إلى المخططات والعقود البرمجية وإجراءات التشغيل والضوابط المتوافقة مع الخادم الحي.",
         primaryLabelEn: "Back to home",
         primaryLabelAr: "العودة إلى الرئيسية",
         primaryHref: "/",
-        secondaryLabelEn: "Portal",
-        secondaryLabelAr: "البوابة",
+        secondaryLabelEn: "Open portal",
+        secondaryLabelAr: "فتح البوابة",
         secondaryHref: "/portal",
         cards: [
           {
             titleEn: "System overview",
             titleAr: "نظرة عامة على النظام",
-            bodyEn: "Narrative guidance for the platform philosophy and trust boundaries.",
-            bodyAr: "إرشاد سردي لفلسفة المنصة وحدود الثقة."
+            bodyEn: "The platform architecture, trust boundaries, and deployment model in one place.",
+            bodyAr: "معمارية المنصة وحدود الثقة ونموذج النشر في مكان واحد."
           },
           {
             titleEn: "Integration guide",
             titleAr: "دليل التكامل",
-            bodyEn: "Step-by-step onboarding for integrators and implementation teams.",
-            bodyAr: "خطوات تنفيذية واضحة لفرق الدمج والتنفيذ."
+            bodyEn: "Implementation guidance for authentication, verification, and tenant-owned endpoints.",
+            bodyAr: "إرشادات تنفيذ للمصادقة والتحقق ونقاط النهاية المملوكة للشركة."
           },
           {
             titleEn: "Security and operations",
             titleAr: "الأمن والعمليات",
-            bodyEn: "Threat model, error model, runbooks, and release policy in one place.",
-            bodyAr: "نموذج التهديدات، ونموذج الأخطاء، وإجراءات التشغيل، وسياسة الإصدارات في مكان واحد."
+            bodyEn: "Security policy, runbooks, and verification logs aligned to the current release workflow.",
+            bodyAr: "سياسة الأمن وإجراءات التشغيل وسجل التحقق بما يتوافق مع مسار الإصدار الحالي."
           }
         ]
       }}

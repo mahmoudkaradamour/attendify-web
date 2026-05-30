@@ -6,36 +6,36 @@ export default function PortalPage() {
       copy={{
         eyebrowEn: "Portal",
         eyebrowAr: "البوابة",
-        titleEn: "A focused operations portal for trusted workflows",
-        titleAr: "بوابة عمليات مركزة لسير العمل الموثوق",
+        titleEn: "An operations portal built for company owners and audit teams",
+        titleAr: "بوابة تشغيل مصممة لمالكي الشركات وفرق المراجعة",
         descriptionEn:
-          "This section explains how the platform separates product operations, verification controls, and company-owned decisions.",
+          "Use the portal to understand tenant state, operational boundaries, and the path from company onboarding to verified device governance.",
         descriptionAr:
-          "تشرح هذه الصفحة كيف تفصل المنصة بين العمليات والضوابط الخاصة بالتحقق والقرارات المملوكة للشركة.",
+          "استخدم البوابة لفهم حالة المستأجر وحدود التشغيل والمسار من تسجيل الشركة إلى حوكمة الأجهزة الموثقة.",
         primaryLabelEn: "Back to home",
         primaryLabelAr: "العودة إلى الرئيسية",
         primaryHref: "/",
-        secondaryLabelEn: "Plans",
-        secondaryLabelAr: "الخطط",
-        secondaryHref: "/subscriptions",
+        secondaryLabelEn: "Open admin",
+        secondaryLabelAr: "فتح الأدمن",
+        secondaryHref: "/admin",
         cards: [
           {
-            titleEn: "Verification flow",
-            titleAr: "مسار التحقق",
-            bodyEn: "Every request is checked against the agreed trust boundary before the company applies business logic.",
-            bodyAr: "يُتحقق من كل طلب مقابل حدود الثقة المتفق عليها قبل تطبيق منطق العمل الخاص بالشركة."
+            titleEn: "Company onboarding",
+            titleAr: "تسجيل الشركة",
+            bodyEn: "New tenants are created in the backend, activated by policy, and exposed through the admin console.",
+            bodyAr: "يتم إنشاء المستأجرين في الخادم، وتفعيلهم بسياسة واضحة، ثم عرضهم في لوحة الأدمن."
           },
           {
-            titleEn: "Operational visibility",
-            titleAr: "الرؤية التشغيلية",
-            bodyEn: "Use the portal to align product operators, support teams, and auditors around the same evidence model.",
-            bodyAr: "استخدم البوابة لمواءمة فرق التشغيل والدعم والتدقيق حول نموذج الأدلة نفسه."
+            titleEn: "Device governance",
+            titleAr: "حوكمة الأجهزة",
+            bodyEn: "Enrollment, suspension, revocation, and key rotation are all surfaced as controlled operations.",
+            bodyAr: "التسجيل والتعليق والسحب وتدوير المفاتيح تظهر كلها كعمليات محكومة داخل النظام."
           },
           {
-            titleEn: "Ownership boundary",
-            titleAr: "حدود الملكية",
-            bodyEn: "Decisions remain with the company; Attendify supplies the verification artifacts.",
-            bodyAr: "القرارات تبقى لدى الشركة؛ بينما يوفّر Attendify مخرجات التحقق فقط."
+            titleEn: "Audit-ready state",
+            titleAr: "حالة جاهزة للتدقيق",
+            bodyEn: "Each action is built to be reflected in MongoDB and verified through the live admin console.",
+            bodyAr: "كل إجراء مصمم ليظهر في MongoDB ويمكن التحقق منه من خلال لوحة الأدمن الحية."
           }
         ]
       }}

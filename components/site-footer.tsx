@@ -11,6 +11,7 @@ const footerCopy = {
     links: [
       ["Overview", "/"],
       ["Access Portal", "/access"],
+      ["Admin Console", "/admin"],
       ["Plans", "/subscriptions"]
     ],
     buildLinks: [
@@ -32,6 +33,7 @@ const footerCopy = {
     links: [
       ["نظرة عامة", "/"],
       ["بوابة الدخول", "/access"],
+      ["لوحة الأدمن", "/admin"],
       ["الخطط", "/subscriptions"]
     ],
     buildLinks: [

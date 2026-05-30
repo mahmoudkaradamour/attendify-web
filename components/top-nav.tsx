@@ -8,6 +8,7 @@ const labels = {
   en: {
     overview: "Overview",
     access: "Access",
+    admin: "Admin",
     portal: "Portal",
     plans: "Plans",
     docs: "Docs Portal",
@@ -17,6 +18,7 @@ const labels = {
   ar: {
     overview: "نظرة عامة",
     access: "الدخول",
+    admin: "الأدمن",
     portal: "البوابة",
     plans: "الخطط",
     docs: "بوابة الوثائق",
@@ -33,6 +35,7 @@ export default function TopNav() {
   const links = [
     { href: "/", label: copy.overview },
     { href: "/access", label: copy.access },
+    { href: "/admin", label: copy.admin },
     { href: "/portal", label: copy.portal },
     { href: "/subscriptions", label: copy.plans },
     { href: "/docs", label: copy.docs }

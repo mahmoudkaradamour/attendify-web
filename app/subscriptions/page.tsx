@@ -6,36 +6,36 @@ export default function SubscriptionsPage() {
       copy={{
         eyebrowEn: "Plans",
         eyebrowAr: "الخطط",
-        titleEn: "Subscription tiers built for enterprise readiness",
-        titleAr: "مستويات اشتراك مصممة للجاهزية المؤسسية",
+        titleEn: "Subscription tiers shaped for operational procurement",
+        titleAr: "مستويات اشتراك مصممة للشراء والتشغيل المؤسسي",
         descriptionEn:
-          "This page frames pricing, onboarding, and entitlement boundaries for enterprise buyers and procurement teams.",
+          "Model the commercial structure, the entitlement boundaries, and the support posture that enterprise buyers expect.",
         descriptionAr:
-          "تعرض هذه الصفحة التسعير والتأهيل وحدود الصلاحيات للجهات المؤسسية وفرق المشتريات.",
+          "تعرض هذه الصفحة الهيكل التجاري وحدود الصلاحيات ومستوى الدعم الذي تتوقعه الجهات المؤسسية.",
         primaryLabelEn: "Back to home",
         primaryLabelAr: "العودة إلى الرئيسية",
         primaryHref: "/",
-        secondaryLabelEn: "Access",
-        secondaryLabelAr: "الدخول",
-        secondaryHref: "/access",
+        secondaryLabelEn: "Open test lab",
+        secondaryLabelAr: "فتح مختبر الاختبار",
+        secondaryHref: "/admin",
         cards: [
           {
             titleEn: "Starter",
             titleAr: "الأساسية",
-            bodyEn: "For pilots and low-volume deployments that need a clean proof of value.",
-            bodyAr: "للتجارب والتشغيل منخفض الحجم الذي يحتاج إلى إثبات قيمة واضح."
+            bodyEn: "For pilots and controlled launches that need a crisp proof of value and tight scope.",
+            bodyAr: "للتجارب والإطلاقات المضبوطة التي تحتاج إثبات قيمة واضحًا ونطاقًا محدودًا."
           },
           {
             titleEn: "Business",
             titleAr: "الأعمال",
-            bodyEn: "For teams that need stronger controls, operational reporting, and support alignment.",
-            bodyAr: "للأطقم التي تحتاج إلى ضوابط أقوى وتقارير تشغيلية وتنسيق أفضل مع الدعم."
+            bodyEn: "For teams that need governance, live operations, and a structured admin workflow.",
+            bodyAr: "للأطقم التي تحتاج إلى حوكمة وتشغيل حي ومسار إداري منظم."
           },
           {
             titleEn: "Enterprise",
             titleAr: "المؤسسي",
-            bodyEn: "For advanced governance, custom integrations, and formal security review requirements.",
-            bodyAr: "للحوكمة المتقدمة والتكاملات المخصصة ومتطلبات المراجعة الأمنية الرسمية."
+            bodyEn: "For advanced governance, security review, and integrations that must be operationally auditable.",
+            bodyAr: "للحوكمة المتقدمة والمراجعة الأمنية والتكاملات التي يجب أن تكون قابلة للتدقيق التشغيلي."
           }
         ]
       }}
